@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 65%;
+    margin: auto;
+    padding: 100px 0 40px 0px;
+}
+p{
+    padding-bottom:30px;
+}
+.logo {
+    display: flex;
+    vertical-align: middle;
+}
+.logo-google {
+    width: 200px;
+}
+.logo-google-text {
+    font-size: 40px;
+    margin-top: 33px;
+}
+.header-bottom {
+    margin-left: 25px;
+}
+.header-bottom li{
+    font-weight:500;
+    display: inline-block;
+    color: #5f6368;
+    padding: 8px 0;
+    margin-right: 30px;
+}
+.header-bottom li:last-child{
+    color: #3367d6;
+}
+.active{
+    border-bottom: 4px solid #3367d6;
+}
